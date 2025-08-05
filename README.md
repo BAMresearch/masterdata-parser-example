@@ -53,23 +53,23 @@ masterdata-parser-example
 Below you can find an explanation of each file. You can also change the name of the package from `masterdata_parser_example` to your preferred package name `<pkg-name>`.
 
 In order to create your new parser, you have to:
-1. Define a new class in `src/<pck-name>/parser.py` instead of `MasterdataParserExample`. We recommend naming it `PckName`.
-2. Modify `src/<pck-name>/__init__.py` entry point variables:
+1. Define a new class in `src/<pkg-name>/parser.py` instead of `MasterdataParserExample`. We recommend naming it `PkgName`.
+2. Modify `src/<pkg-name>/__init__.py` entry point variables:
 ```python
-from .parser import PckName
+from .parser import PkgName
 
 # Add more metadata if needed
-<pck_name>_entry_point = {
-    "name": "PckName",
+<pkg-name>_entry_point = {
+    "name": "PkgName",
     "description": "A new parser for masterdata.",
-    "parser_class": PckName,
+    "parser_class": PkgName,
 }
 ```
 3. Modify the `pyproject.toml` line `[project.entry-points."bam.parsers"]` to the new entry point:
 ```toml
-<pck-name>_entry_point = "<pck-name>:<pck_name>_entry_point"
+<pkg-name>_entry_point = "<pkg-name>:<pkg-name>_entry_point"
 ```
-4. Modify all other parts in `pyproject.toml` where the `<pck-name>` is `masterdata_parser_example` to your package name.
+4. Modify all other parts in `pyproject.toml` where the `<pkg-name>` is `masterdata_parser_example` to your package name.
 
 ### Explanation of the files
 
@@ -77,7 +77,7 @@ _To be added!_
 
 ## 3. Work in your parser
 
-With the new structure, you can work in your parser to map data from your files into openBIS by modifying `src/<pck-name>/parser.py` and the testing
+With the new structure, you can work in your parser to map data from your files into openBIS by modifying `src/<pkg-name>/parser.py` and the testing
 module `tests/test_parser.py`.
 
 ## 4. Add new parser to `openbis-upload-helper`
