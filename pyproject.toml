@@ -12,7 +12,7 @@ classifiers = [
   "Programming Language :: Python :: 3.11",
   "Programming Language :: Python :: 3.12",
 ]
-name = "masterdata-example-parser"
+name = "masterdata-parser-example"
 description = "An example parser for openBIS using the bam-masterdata interface."
 dynamic = ["version"]
 readme = "README.md"
@@ -29,8 +29,8 @@ dependencies = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/BAMresearch/masterdata-example-parser"
-"Bug Tracker" = "https://github.com/BAMresearch/masterdata-example-parser/issues"
+"Homepage" = "https://github.com/BAMresearch/masterdata-parser-example"
+"Bug Tracker" = "https://github.com/BAMresearch/masterdata-parser-example/issues"
 
 [project.optional-dependencies]
 dev = [
