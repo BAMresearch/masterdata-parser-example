@@ -3,7 +3,7 @@
 An example parser for openBIS using the bam-masterdata interface.
 
 This repository is intended to be used as a template or example to be forked to generate new parsers in openBIS
-integrated with the `openbis-upload-helper`.
+integrated with the [`openbis-upload-helper`](https://github.com/BAMresearch/openbis-upload-helper).
 
 
 ## 1. Create a new parser repository
@@ -81,4 +81,4 @@ module `tests/test_parser.py`.
 
 ## 4. Add new parser to `openbis-upload-helper`
 
-Once your new parser has been developed and tested, you can add it to the registry of parsers in the `openbis-upload-helper`. We recommend you contacting the maintainers of the application with a link to your parser repository.
+Once your new parser has been developed and tested, you can add it to the registry of parsers in the [`openbis-upload-helper`](https://github.com/BAMresearch/openbis-upload-helper). We recommend you contacting the maintainers of the application with a link to your parser repository.
