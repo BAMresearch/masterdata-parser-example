@@ -65,7 +65,7 @@ from .parser import PkgName
 }
 ```
 3. Modify the `pyproject.toml` line `[project.entry-points."bam.parsers"]` to the new entry point:
-```toml
+```sh
 <pkg-name>_entry_point = "<pkg-name>:<pkg-name>_entry_point"
 ```
 4. Modify all other parts in `pyproject.toml` where the `<pkg-name>` is `masterdata_parser_example` to your package name.
