@@ -2,7 +2,7 @@ import os
 
 import pytest
 
-from masterdata_example_parser.parser import MasterdataParserExample
+from masterdata_parser_example.parser import MasterdataParserExample
 
 if os.getenv("_PYTEST_RAISE", "0") != "0":
 
