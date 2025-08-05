@@ -12,7 +12,7 @@ You can either [fork](https://docs.github.com/en/pull-requests/collaborating-wit
 
 Click on the button **Use this template** and choose **Create a new repository**:
 
-<!--Image use this template-->
+<div align="center"><img width="900" alt="use-this-template" src="https://github.com/user-attachments/assets/4a6e244b-285c-4982-a576-7dcb69aa24fa" /></div>
 
 You will be prompted to create a new repository. Choose:
 - Place to host the repository (organization or your own profile). In our case, we selected _BAMResearch_
@@ -20,8 +20,7 @@ You will be prompted to create a new repository. Choose:
 - Write a short description.
 - Choose _Public_ visibility.
 
-<!-- Image of create a new repository -->
-
+<div align="center"><img width="600" alt="create-new-template" src="https://github.com/user-attachments/assets/bf509059-b734-4634-9e32-96b2c220b257" /></div>
 
 ## 2. Define your parser entry point
 
