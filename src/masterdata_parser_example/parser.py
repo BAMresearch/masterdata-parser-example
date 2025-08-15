@@ -21,14 +21,3 @@ class MasterdataParserExample(AbstractParser):
         instrument_id = collection.add(instrument)
         _ = collection.add_relationship(chemical_id, instrument_id)
         logger.info("Parsing finished: Added example chemical and instrument.")
-
-
-from bam_masterdata.logger import logger
-from bam_masterdata.metadata.entities import CollectionType
-
-collection = CollectionType()
-files = []
-parser = MasterdataParserExample()
-
-
-parser.parse(files, collection, logger)
