@@ -9,6 +9,6 @@ class TestMasterdataParserExample:
 
         assert len(collection.attached_objects) == 2
         objects = list(collection.attached_objects.values())
-        assert objects[0].name == "Example Storage"
-        assert objects[1].name == "Example Instrument"
+        assert objects[0].name == "Example Input Instrument"
+        assert objects[1].name == "Example Output Instrument"
         assert len(collection.relationships) == 1
